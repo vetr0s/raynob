@@ -9,7 +9,7 @@ To build the project from source make sure to follow the guide for MacOS [here](
 ```sh
 cc nob.c -o nob
 ./nob
-``
+```
 
 Note: since the go rebuild yourself flag is on after the initial bootstrap you can just:
 
