@@ -15,6 +15,6 @@ Note: since the go rebuild yourself flag is on after the initial bootstrap you c
 
 ```sh
 ./nob
-``
+```
 
 to automatically rebuild nob itself syncing any changes made to `nob.c`
