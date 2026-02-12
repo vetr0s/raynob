@@ -1,5 +1,6 @@
 // Author: Nathan Tebbs
 // Resources: <https://www.raylib.com/examples.html>
+// Purpose: Game layer main file
 // Created: 2026-02-11
 
 #include <raylib.h>
