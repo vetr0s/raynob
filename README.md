@@ -7,14 +7,14 @@ is to use [nob.h](https://raw.githubusercontent.com/tsoding/nob.h/refs/heads/mai
 To build the project from source make sure to follow the guide for MacOS [here](https://github.com/raysan5/raylib/wiki/Working-on-macOS). I plan on implementing cross platform support for Linux and MacOS soon and Windows later on. Otherwise:
 
 ```sh
-cc nob.c -o nob
-./nob
+cc -o build/nob src/nob.c
+./build/nob
 ```
 
 Note: since the go rebuild yourself flag is on after the initial bootstrap you can just:
 
 ```sh
-./nob
+./build/nob
 ```
 
-to automatically rebuild nob itself syncing any changes made to `nob.c`
+to automatically rebuild nob itself syncing any changes made to `src/nob.c`
